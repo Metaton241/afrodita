@@ -1,0 +1,447 @@
+.header{
+    background-color: #131415;
+    color: #ffffff;
+    padding: 20px 0px;
+}
+.html, body{
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.big_container{
+    width: 1100px;
+    margin: auto;
+}
+.menu_list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+.menu_item{
+    margin-right: 25px;
+}
+.menu_item:last-child{
+    margin-right: 0px;
+}
+.menu_link{
+text-align: center;
+text-decoration: none;
+color: #efefef;
+font-size: 22px;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+}
+.afro{
+    color: #f89513;
+}
+.logo{
+    text-transform: uppercase;
+    color: #f89513;
+    font-size: 18px;
+}
+.contacts{
+    width: 190px;
+}
+.pic{
+    margin-right: 16px;
+}
+.mobila{
+    display: flex;
+    text-decoration: none;
+    color: #efefef;
+    font-size: 21px;
+    justify-content: end;
+}
+.time_work{
+    display: flex;
+    color: #f89513;
+    font-size: 14px;
+    justify-content: end;
+}
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mini_container{
+    width: 900px;
+}
+.main{
+    display: flex;
+    margin-top: 40px;
+}
+.mail_glav{
+    border-bottom: 2px solid #f89513;
+    text-decoration: none;
+    list-style: none;
+    color: #131415;
+}
+.text16{
+    color: #131415;
+}
+.mail_glav::after{
+    content: "/";
+}
+.otziv_center{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.308);
+    margin-top: 20px;
+}
+.otziv{
+    padding: 0px 20px;
+}
+.otziv_center:last-child{
+    border-bottom: 0px;
+}
+.Text_otz{
+    font-size: 49px;
+    color: #221f1f;
+    text-transform: uppercase;
+    margin: 20px 0px;
+}
+.spiski{
+    padding: 0;
+    margin: 0;
+}
+
+.otziv_center_left1{
+    margin-bottom: 15px;
+    width: 200px;
+    height: 200px;
+    background-image: url(img/1.png);
+    border: 1px solid white;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.otziv_center_left2{
+    margin-bottom: 15px;
+    width: 200px;
+    height: 200px;
+    background-image: url(img/2.png);
+    border: 1px solid white;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.otziv_center_left3{
+    margin-bottom: 15px;
+    width: 200px;
+    height: 200px;
+    background-color: #f5f5f5;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.otziv_center_left3_backgroung{
+    width: 130px;
+    height: 130px;
+}
+.otziv_center_left4{
+    margin-bottom: 15px;
+    width: 200px;
+    height: 200px;
+    background-image: url(img/4.png);
+    background-color: #1c1f1d;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.otziv_center_right1{
+    width: 700px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+.otziv_center_right2{
+    width: 700px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+.otziv_center_right3{
+    width: 700px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+.otziv_center_right4{
+    width: 700px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+.otziv_center_right5{
+    width: 700px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+.otziv_date{
+font-size: 14px;
+color: #c1c1c1;
+}
+.otziv_name{
+font-size: 18px;
+color: #221f1f;
+font-weight: 800;
+}
+.otziv_text{
+font-size: 18px;
+color: #221f1f;
+line-height: 1.5;
+}
+.pagination{
+    margin: auto;
+    width: 500px;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.pagination_left{
+    width: 180px;
+    color: grey;
+    font-size: 20px;
+}
+.pagination_right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+}
+.text{
+    padding: 0;
+    margin: 0;
+}
+.spisok_pagination{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+}
+.pagination_number{
+    padding: 8px 9px;
+    color: #131415;
+    font-weight: 900;
+    font-size: 15;
+    margin: 0px 5px;
+}
+.selected{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #131415;
+    color: #f89513;
+}
+.container_zayavki{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    background-color: #131415;
+    background-image: url(img/Rectangle.png);
+}
+.text_zayavki {
+    width: 650px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.wait_zayavki {
+    color: #f89513;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container_small{
+    margin: auto;
+    width: 700px;
+}
+.form{
+    background-color: #f5f5f5;
+    padding: 50px 70px;
+    margin: 63px 0px;
+}
+.title_form{
+    font-size: 49px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.form_row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.form_item-input{
+    width: 270px;
+    padding: 16px 8px;
+    border-width: 0px;
+    outline-width: 1px;
+    outline-color: #f89513;
+}
+.form_item-text{
+    resize: none;
+    width: 100%;
+    height: 90px;
+    padding: 9px;
+    border-width: 0px;
+    outline-width: 1px;
+    outline-color: #f89513;
+}
+.text4{
+    flex: 1;
+}
+.form_item-input-submit{
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #1c1f1d;
+    font-size: 12px;
+    color: white;
+}
+.form_item-radio{
+    position: relative;
+    left: -9999px;
+}
+.form_item-radio:checked + .radio_fake-button{
+    border: 1px solid #f89513;
+}
+.form_item-radio:checked + .radio_fake-button::before{
+    width: 8px;
+    height: 8px;
+}
+.radio_fake-button{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #efefef;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 6px;
+}
+.radio_fake-button::before{
+    content: "";
+    display: flex;
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    background-color: #f89513;
+}
+label{
+    display: flex;
+    margin-right: 20px;
+}
+.form_buttons{
+    display: flex;
+}
+.footer{
+    min-height: 100px;
+    background-color: #1c1f1d;
+    
+}
+.footer_left{
+    width: 200px;
+    color: #c1c1c1;
+    padding: 20px;
+}
+.kylikow{
+    color: white;
+}
+.container_footer{
+width: 1100px;
+margin: auto;
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_center{
+    display: flex;
+    width: 180px;
+font-size: 18px;
+color: #f89513;
+}
+.our_seti{
+    color: #efefef;
+    font-weight: 600;
+}
+.links{
+display: flex;
+margin: 0;
+padding: 0;
+list-style: none;
+}
+.sotset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #d0d0d0;
+    margin: 6px;
+}
+.sotset:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #f89513;
+    margin: 6px;
+}
+.set1{
+    width: 16px;
+    height: 9px;
+    background-image: url(img/tenmel.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.set2{
+    width: 7px;
+    height: 15px;
+    background-image: url(img/fb.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.set3{
+    width: 14px;
+    height: 12px;
+    background-image: url(img/twitter.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.set4{
+    width: 16px;
+    height: 12px;
+    background-image: url(img/mail.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.set5{
+    width: 16px;
+    height: 9px;
+    background-image: url(img/vk.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
